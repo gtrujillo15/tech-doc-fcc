@@ -1,0 +1,49 @@
+/* GLOBAL */
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+/* NAVIGATION */
+
+.navbar {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* #navbar {
+    position: fixed;
+} */
+
+.nav-list {
+    list-style-type: none;
+    padding-bottom: 10%;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+/* MAIN CONTENT */
+
+main {
+    width: 80%;
+    height: 100%;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 570px) {
+    .navbar {
+        width: 50%;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+}
